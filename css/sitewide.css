@@ -57,13 +57,15 @@ body {
 	margin-top: 2em;
 	font-family: 'Tomorrow', sans-serif;
 	font-size: 70px;
-	font-style: black;
+	font-weight: 800;
 	text-align: center;
 	color: #E55916;
 }
 
 .info {
-	background-color: rgba(160, 160, 160, 0.6);
+	background-color: rgba(160, 160, 160, 0.8);
+	padding: 1px;
+	margin: 1px;
 	font-family: 'Open Sans';
 	text-align: center;
 	color: white;
