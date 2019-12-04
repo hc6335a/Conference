@@ -67,9 +67,11 @@ body {
 	background-color: rgba(160, 160, 160, 0.8);
 	padding: 1px;
 	margin: 1px;
+	font-size: 15px;
+	line-height: 1em;
 	font-family: 'Open Sans';
 	text-align: center;
-	color: white;
+	color: black;
 	grid-row: 2 / 3;
 	grid-column: 1 / 5;
 }
