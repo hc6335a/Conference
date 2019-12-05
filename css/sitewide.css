@@ -32,23 +32,23 @@ body {
 	line-height: 1.5em;
 	color: #111;
 	background-color: #fff;
-	background-image: url('../img/Modern-Free-Vector-Geometric.svg');
-	background-size: cover;
-	background-repeat: no-repeat;
-	background-position: center center;
-	background-attachment: fixed;
 }
 
 
 /* For this site, note that the .container element is invisible.
    We're using it for structure only. */
 
-.container {
+.container-home {
 	margin-right: 0;
 	margin-left: 0;
 	width: 100%;
 	display: grid;
 	grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+	background-image: url('../img/Modern-Free-Vector-Geometric.svg');
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: center center;
+	background-attachment: fixed;
 }
 
 
@@ -93,6 +93,15 @@ body {
 	line-height: 1em;
 }
 
+
+
+
+
+/* start home page */
+
+
+
+
 .info {
 	padding: 1px;
 	margin-top: 0em;
@@ -118,20 +127,40 @@ body {
 	font-family: 'Open Sans';
 }
 
+
+
+
+/* start register page */
+
+
+
+
+
+
+.container-register {
+		display: grid;
+		grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+	  padding: 5px 20px 15px 20px;
+	  border: 1px solid lightgrey;
+	  border-radius: 3px;
+		color: white;
+		background-image: url('../img/Modern-Free-Vector-Geometric.svg');
+		background-size: cover;
+		background-repeat: no-repeat;
+		background-position: center center;
+		background-attachment: fixed;
+}
+
 .row {
+	background-color: rgba(160, 160, 160, 0.7);
 	grid-column: 1 / 6;
-	grid-row: 2 / 3;
+	grid-row: 3 / 4;
   display: -ms-flexbox; /* IE10 */
   display: flex;
   -ms-flex-wrap: wrap; /* IE10 */
   flex-wrap: wrap;
-  margin: 0 -16px;
 }
 
-.col-25 {
-  -ms-flex: 25%; /* IE10 */
-  flex: 25%;
-}
 
 .col-50 {
   -ms-flex: 50%; /* IE10 */
@@ -143,7 +172,6 @@ body {
   flex: 75%;
 }
 
-.col-25,
 .col-50,
 .col-75 {
   padding: 0 16px;
@@ -190,14 +218,78 @@ span.price {
   color: grey;
 }
 
+
+
+
+
+/* start schedule page */
+
+
+.container-schedule {
+	display: grid;
+	grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+	padding: 5px 20px 15px 20px;
+	border: 1px solid lightgrey;
+	border-radius: 3px;
+	color: white;
+	background-image: url('../img/Modern-Free-Vector-Geometric.svg');
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: center center;
+	background-attachment: fixed;
+}
+
+
+/* Dropdown Button */
+.dropbtn {
+  background-color: #4CAF50;
+  color: white;
+  padding: 16px;
+  font-size: 16px;
+  border: none;
+}
+
+/* The container <div> - needed to position the dropdown content */
+.dropdown {
+	grid-column: 1 / 6;
+	grid-row: 3 / 4;
+  position: relative;
+  display: inline-block;
+}
+
+/* Dropdown Content (Hidden by Default) */
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f1f1f1;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+
+/* Links inside the dropdown */
+.dropdown-content p {
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+}
+
+/* Change color of dropdown links on hover */
+.dropdown-content p:hover {background-color: #ddd;}
+
+/* Show the dropdown menu on hover */
+.dropdown:hover .dropdown-content {display: block;}
+
+/* Change the background color of the dropdown button when the dropdown content is shown */
+.dropdown:hover .dropbtn {background-color: #3e8e41;}
+
 /* Responsive layout - when the screen is less than 800px wide, make the two columns stack on top of each other instead of next to each other (and change the direction - make the "cart" column go on top) */
 @media (max-width: 800px) {
   .row {
     flex-direction: column-reverse;
   }
-  .col-25 {
-    margin-bottom: 20px;
-  }
+
 }
 
 /* small screens media query */
