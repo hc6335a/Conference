@@ -43,7 +43,7 @@ body {
 	margin-left: 0;
 	width: 100%;
 	display: grid;
-	grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+	grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
 	background-image: url('../img/Modern-Free-Vector-Geometric.svg');
 	background-size: cover;
 	background-repeat: no-repeat;
@@ -53,7 +53,7 @@ body {
 
 
 .navbar {
-	grid-column: 1 / 6;
+	grid-column: 1 / 7;
 	grid-row: 1 / 2;
 	margin-top: 0;
 	width: 100%;
@@ -79,18 +79,18 @@ body {
 }
 
 .title {
-	grid-column: 3 / 4;
+	grid-column: 3 / 5;
 	grid-row: 2 / 3;
-	padding-top: 1em;
+	padding-top: 0;
 	padding-bottom: 0;
 	margin-top: 1em;
-	margin-bottom: 0;
+	margin-bottom: 1em;
 	font-family: 'Tomorrow', sans-serif;
-	font-size: 70px;
+	font-size: 80px;
 	font-weight: 800;
 	text-align: center;
 	color: #E55916;
-	line-height: 1em;
+	line-height: 1.5em;
 }
 
 
@@ -111,7 +111,7 @@ body {
 	text-align: center;
 	color: #E55916;
 	grid-row: 3 / 4;
-	grid-column: 1 / 6;
+	grid-column: 1 / 7;
 }
 
 .description {
@@ -121,7 +121,7 @@ body {
 	padding: 2em;
 	margin-bottom: 5em;
 	margin-top: 3em;;
-	grid-column: 2 / 5;
+	grid-column: 2 / 6;
 	grid-row: 4 / 5;
 	color: #333333;
 	font-family: 'Open Sans';
@@ -139,7 +139,7 @@ body {
 
 .container-register {
 		display: grid;
-		grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+		grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
 	  padding: 5px 20px 15px 20px;
 	  border: 1px solid lightgrey;
 	  border-radius: 3px;
@@ -153,7 +153,7 @@ body {
 
 .row {
 	background-color: rgba(160, 160, 160, 0.7);
-	grid-column: 1 / 6;
+	grid-column: 1 / 7;
 	grid-row: 3 / 4;
   display: -ms-flexbox; /* IE10 */
   display: flex;
@@ -227,7 +227,7 @@ span.price {
 
 .container-schedule {
 	display: grid;
-	grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+	grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
 	padding: 5px 20px 15px 20px;
 	border: 1px solid lightgrey;
 	border-radius: 3px;
@@ -251,7 +251,7 @@ span.price {
 
 /* The container <div> - needed to position the dropdown content */
 .dropdown {
-	grid-column: 1 / 6;
+	grid-column: 1 / 7;
 	grid-row: 3 / 4;
   position: relative;
   display: inline-block;
@@ -283,6 +283,107 @@ span.price {
 
 /* Change the background color of the dropdown button when the dropdown content is shown */
 .dropdown:hover .dropbtn {background-color: #3e8e41;}
+
+
+
+
+/* start speakers page */
+
+
+.container-speakers {
+	display: grid;
+	grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
+	padding: 5px 20px 15px 20px;
+	border: 1px solid lightgrey;
+	border-radius: 3px;
+	color: white;
+	background-image: url('../img/Modern-Free-Vector-Geometric.svg');
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: center center;
+	background-attachment: fixed;
+}
+
+.jen {
+	grid-column: 2 / 3;
+	grid-row: 3 / 4;
+	margin: 1em;
+	color: #E55916;
+	background-color: rgba(51, 51, 51, 0.8);
+	padding: .5em;
+	width: 300px;
+
+}
+
+.john {
+	grid-column: 3 / 4;
+	grid-row: 3 / 4;
+	margin: 1em;
+	color: #E55916;
+	width: 300px;
+	background-color: rgba(51, 51, 51, 0.8);
+	padding: .5em;
+}
+
+.susan {
+	grid-column: 4 / 5;
+	grid-row: 3 / 4;
+	margin: 1em;
+	color: #E55916;
+	width: 300px;
+	background-color: rgba(51, 51, 51, 0.8);
+	padding: .5em;
+}
+
+/* Dropdown Button */
+.dropbtn-s {
+  background-color: rgba(51, 51, 51, 0.8);
+;
+  color: white;
+  padding: 1px;
+  font-size: 14px;
+  border: none;
+}
+
+/* The container <div> - needed to position the dropdown content */
+.dropdown-s {
+	grid-column: 1 / 7;
+	grid-row: 3 / 4;
+  position: relative;
+  display: inline-block;
+}
+
+/* Dropdown Content (Hidden by Default) */
+.dropdown-content-s {
+  display: none;
+  position: absolute;
+  background-color: rgba(120, 120, 120, 0.8);
+;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+
+/* Links inside the dropdown */
+.dropdown-content-s p {
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+}
+
+/* Show the dropdown menu on hover */
+.dropdown-s:hover .dropdown-content-s {display: block;}
+
+/* Change the background color of the dropdown button when the dropdown content is shown */
+.dropdown-s:hover .dropbtn-s {background-color: rgba(51, 51, 51, 0.8);
+;}
+
+
+
+
+
+
 
 /* Responsive layout - when the screen is less than 800px wide, make the two columns stack on top of each other instead of next to each other (and change the direction - make the "cart" column go on top) */
 @media (max-width: 800px) {
