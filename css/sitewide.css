@@ -236,6 +236,12 @@ span.price {
 .time {
 	background-color: rgba(229, 89, 22, 0.8);
 	padding: .5em;
+	transition: box-shadow .3s;
+}
+
+.time:hover {
+	box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+	background-color: rgba(51, 51, 51, 0.7);
 }
 
 .ten {
