@@ -60,22 +60,23 @@ body {
 .navbar {
 	grid-column: 1 / 7;
 	grid-row: 1 / 2;
-	margin-top: 0;
 	width: 100%;
+	height: 4em;
 	padding: 1em;
 	text-align: center;
 	background-color: rgba(51, 51, 51, 0.8);
+	background-color: #aaa;
 }
 
  a {
 	color: white;
 	flex-wrap: nowrap;
-	font-size: 16px;
+	font-size: 18px;
 	text-decoration: none;
 	margin-right: 2em;
 	margin-left: 2em;
 	transition: all .4s ease-in-out;
-	padding: 1em;
+	padding: .5em;
 }
 
  a:hover {
@@ -85,8 +86,6 @@ body {
 .title {
 	grid-column: 1 / 7;
 	grid-row: 2 / 3;
-	padding-top: 0;
-	padding-bottom: 0;
 	margin-top: .5em;
 	margin-bottom: .5em;
 	font-family: 'Tomorrow', sans-serif;
@@ -144,15 +143,9 @@ body {
 .container-register {
 		display: grid;
 		grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
-	  padding: 5px 20px 15px 20px;
-	  border: 1px solid lightgrey;
-	  border-radius: 3px;
+		width: 100%;
+		height: 100%;
 		color: white;
-		background-image: url('../img/Modern-Free-Vector-Geometric.jpg');
-		background-size: cover;
-		background-repeat: no-repeat;
-		background-position: center center;
-		background-attachment: fixed;
 }
 
 .row {
@@ -232,15 +225,9 @@ span.price {
 .container-schedule {
 	display: grid;
 	grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
-	padding: 5px 20px 15px 20px;
-	border: 1px solid lightgrey;
-	border-radius: 3px;
+	width: 100%;
+	height: 100%;
 	color: white;
-	background-image: url('../img/Modern-Free-Vector-Geometric.jpg');
-	background-size: cover;
-	background-repeat: no-repeat;
-	background-position: center center;
-	background-attachment: fixed;
 }
 
 
@@ -297,17 +284,13 @@ span.price {
 .container-speakers {
 	display: grid;
 	grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
-	padding: 5px 20px 15px 20px;
 	color: white;
-	background-image: url('../img/Modern-Free-Vector-Geometric.jpg');
-	background-size: cover;
-	background-repeat: no-repeat;
-	background-position: center center;
-	background-attachment: fixed;
+	width: 100%;
+	height: 100%;
 }
 
 .jen {
-	grid-column: 2 / 3;
+	grid-column: 2 / 4;
 	grid-row: 3 / 4;
 	margin: 1em;
 	color: #E55916;
@@ -317,7 +300,7 @@ span.price {
 }
 
 .john {
-	grid-column: 3 / 4;
+	grid-column: 4 / 6;
 	grid-row: 3 / 4;
 	margin: 1em;
 	color: #E55916;
@@ -326,8 +309,8 @@ span.price {
 }
 
 .susan {
-	grid-column: 4 / 5;
-	grid-row: 3 / 4;
+	grid-column: 2 / 4;
+	grid-row: 4 / 5;
 	margin: 1em;
 	color: #E55916;
 	background-color: rgba(51, 51, 51, 0.8);
@@ -335,8 +318,8 @@ span.price {
 }
 
 .rich {
-	grid-column: 5 / 6;
-	grid-row: 3 / 4;
+	grid-column: 4 / 6;
+	grid-row: 4 / 5;
 	margin: 1em;
 	color: #E55916;
 	background-color: rgba(51, 51, 51, 0.8);
@@ -405,6 +388,9 @@ span.price {
 		flex-direction: column;
 	}
 
+.navbar {
+	height: 8em;
+}
 
 	.title {
 		transform: scale(0.9);
