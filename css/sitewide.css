@@ -67,13 +67,29 @@ body {
 	background-color: rgba(51, 51, 51, 0.8);
 }
 
+ .navbar-link {
+	 color: white;
+	 font-size: 18px;
+ 	text-decoration: none;
+ 	margin-right: 2em;
+ 	margin-left: 40px;
+ 	transition: all .4s ease-in-out;
+ 	padding: .5em;
+ 	background-color: rgba(51, 51, 51, 0.8);
+ 	padding: .5em;
+ 	transition: box-shadow .3s;
+ }
+
+ .navbar-link:hover {
+	 box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+ 	background-color: rgba(229, 89, 22, 0.8);
+ }
+
  a {
 	color: white;
 	flex-wrap: nowrap;
-	font-size: 18px;
+	font-size: 16px;
 	text-decoration: none;
-	margin-right: 2em;
-	margin-left: 2em;
 	transition: all .4s ease-in-out;
 	padding: .5em;
 	background-color: rgba(51, 51, 51, 0.8);
@@ -367,11 +383,12 @@ span.price {
 .jen {
 	grid-column: 2 / 4;
 	grid-row: 3 / 4;
-	margin: 1em;
+	margin: 16px;
 	color: #E55916;
 	font-size: 30px;
-	background-color: rgba(51, 51, 51, 0.8);
+	background-color: rgba(40, 40, 40, 0.8);
 	padding: 1em;
+	box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.3);
 }
 
 .info-jen {
@@ -381,39 +398,43 @@ span.price {
 	grid-column: 4 / 6;
 	grid-row: 3 / 4;
 	margin: 1em;
-	background-color: rgba(51, 51, 51, 0.8);
+	background-color: rgba(40, 40, 40, 0.8);
 	padding: 1em;
+	box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.3);
 }
 
 .john {
 	font-size: 30px;
 	grid-column: 2 / 4;
 	grid-row: 4 / 5;
-	margin: 1em;
+	margin: 16px;
 	color: #E55916;
-	background-color: rgba(51, 51, 51, 0.8);
+	background-color: rgba(40, 40, 40, 0.8);
 	padding: 1em;
+	box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.3);
 }
 
 .info-john {
 	grid-column: 4 / 6;
 	grid-row: 4 / 5;
 	margin: 1em;
-	background-color: rgba(51, 51, 51, 0.8);
+	background-color: rgba(40, 40, 40, 0.8);
 	padding: 1em;
 	font-family: 'Open Sans', sans-serif;
 	font-size: 16px;
 	color: white;
+	box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.3);
 }
 
 .susan {
 	font-size: 30px;
 	grid-column: 2 / 4;
 	grid-row: 5 / 6;
-	margin: 1em;
+	margin: 16px;
 	color: #E55916;
-	background-color: rgba(51, 51, 51, 0.8);
+	background-color: rgba(40, 40, 40, 0.8);
 	padding: 1em;
+	box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.3);
 }
 
 .info-susan {
@@ -423,18 +444,20 @@ span.price {
 	font-family: 'Open Sans', sans-serif;
 	font-size: 16px;
 	color: white;
-	background-color: rgba(51, 51, 51, 0.8);
+	background-color: rgba(40, 40, 40, 0.8);
 	padding: 1em;
+	box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.3);
 }
 
 .rich {
 	font-size: 30px;
 	grid-column: 2 / 4;
 	grid-row: 6 / 7;
-	margin: 1em;
+	margin: 16px;
 	color: #E55916;
-	background-color: rgba(51, 51, 51, 0.8);
+	background-color: rgba(40, 40, 40, 0.8);
 	padding: 1em;
+	box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.3);
 }
 
 .info-rich {
@@ -444,18 +467,20 @@ span.price {
 	font-family: 'Open Sans', sans-serif;
 	font-size: 16px;
 	color: white;
-	background-color: rgba(51, 51, 51, 0.8);
+	background-color: rgba(40, 40, 40, 0.8);
 	padding: 1em;
+	box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.3);
 }
 
 .jeff {
 	font-size: 30px;
 	grid-column: 2 / 4;
 	grid-row: 7 / 8;
-	margin: 1em;
+	margin: 16px;
 	color: #E55916;
-	background-color: rgba(51, 51, 51, 0.8);
+	background-color: rgba(40, 40, 40, 0.8);
 	padding: 1em;
+	box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.3);
 }
 
 .info-jeff {
@@ -465,18 +490,20 @@ span.price {
 	font-family: 'Open Sans', sans-serif;
 	font-size: 16px;
 	color: white;
-	background-color: rgba(51, 51, 51, 0.8);
+	background-color: rgba(40, 40, 40, 0.8);
 	padding: 1em;
+	box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.3);
 }
 
 .nadine {
 	font-size: 30px;
 	grid-column: 2 / 4;
 	grid-row: 8 / 9;
-	margin: 1em;
+	margin: 16px;
 	color: #E55916;
-	background-color: rgba(51, 51, 51, 0.8);
+	background-color: rgba(40, 40, 40, 0.8);
 	padding: 1em;
+	box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.3);
 }
 
 .info-nadine {
@@ -486,18 +513,20 @@ span.price {
 	font-family: 'Open Sans', sans-serif;
 	font-size: 16px;
 	color: white;
-	background-color: rgba(51, 51, 51, 0.8);
+	background-color: rgba(40, 40, 40, 0.8);
 	padding: 1em;
+	box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.3);
 }
 
 .massimo {
 	font-size: 30px;
 	grid-column: 2 / 4;
 	grid-row: 9 / 10;
-	margin: 1em;
+	margin: 16px;
 	color: #E55916;
-	background-color: rgba(51, 51, 51, 0.8);
+	background-color: rgba(40, 40, 40, 0.8);
 	padding: 1em;
+	box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.3);
 }
 
 .info-massimo {
@@ -507,8 +536,9 @@ span.price {
 	font-family: 'Open Sans', sans-serif;
 	font-size: 16px;
 	color: white;
-	background-color: rgba(51, 51, 51, 0.8);
+	background-color: rgba(40, 40, 40, 0.8);
 	padding: 1em;
+	box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.3);
 }
 
 
