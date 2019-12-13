@@ -64,7 +64,7 @@ body {
 	height: 4em;
 	padding: 1em;
 	text-align: center;
-	background-color: rgba(51, 51, 51, 0.8);
+	background-color: rgba(40, 40, 40, 0.8);
 }
 
  .navbar-link {
@@ -75,7 +75,7 @@ body {
  	margin-left: 40px;
  	transition: all .4s ease-in-out;
  	padding: .5em;
- 	background-color: rgba(51, 51, 51, 0.8);
+ 	background-color: rgba(40, 40, 40, 0.8);
  	padding: .5em;
  	transition: box-shadow .3s;
  }
@@ -541,7 +541,28 @@ span.price {
 	box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.3);
 }
 
+.val {
+	font-size: 30px;
+	grid-column: 2 / 4;
+	grid-row: 10 / 11;
+	margin: 16px;
+	color: #E55916;
+	background-color: rgba(40, 40, 40, 0.8);
+	padding: 1em;
+	box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.3);
+}
 
+.info-val {
+	grid-column: 4 / 6;
+	grid-row: 10 / 11;
+	margin: 1em;
+	font-family: 'Open Sans', sans-serif;
+	font-size: 16px;
+	color: white;
+	background-color: rgba(40, 40, 40, 0.8);
+	padding: 1em;
+	box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.3);
+}
 
 
 
