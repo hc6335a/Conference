@@ -64,7 +64,7 @@ body {
 	height: 4em;
 	padding: 1em;
 	text-align: center;
-	background-color: rgba(40, 40, 40, 0.8);
+	background-color: rgba(40, 40, 40, 0.9);
 }
 
  .navbar-link {
@@ -75,14 +75,14 @@ body {
  	margin-left: 40px;
  	transition: all .4s ease-in-out;
  	padding: .5em;
- 	background-color: rgba(40, 40, 40, 0.8);
+ 	background-color: rgba(40, 40, 40, 0.9);
  	padding: .5em;
- 	transition: box-shadow .3s;
+ 	transition:  .3s;
  }
 
  .navbar-link:hover {
-	 box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
- 	background-color: rgba(229, 89, 22, 0.8);
+	 : 10px 10px 5px 0px rgba(0,0,0,0.75);
+ 	background-color: rgba(200, 77, 20, 0.9);
  }
 
  a {
@@ -94,12 +94,12 @@ body {
 	padding: .5em;
 	background-color: rgba(51, 51, 51, 0.8);
 	padding: .5em;
-	transition: box-shadow .3s;
+	transition:  .3s;
 }
 
 a:hover {
-	box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
-	background-color: rgba(229, 89, 22, 0.8);
+	: 10px 10px 5px 0px rgba(0,0,0,0.75);
+	background-color: rgba(200, 77, 20, 0.9);
 }
 
 .title {
@@ -111,7 +111,7 @@ a:hover {
 	font-size: 70px;
 	font-weight: 800;
 	text-align: center;
-	color: #E55916;
+	color: rgb(200, 77, 20);
 	line-height: 1.5em;
 }
 
@@ -137,7 +137,7 @@ a:hover {
 }
 
 .description {
-	background-color: rgba(160, 160, 160, 0.9);
+	background-color: rgba(40, 40, 40, 0.9);
 	font-size: 16px;
 	line-height: 2em;
 	padding: 2em;
@@ -145,7 +145,7 @@ a:hover {
 	margin-top: 3em;;
 	grid-column: 2 / 6;
 	grid-row: 4 / 5;
-	color: black;
+	color: white;
 	font-family: 'Open Sans';
 }
 
@@ -168,7 +168,8 @@ a:hover {
 }
 
 .row {
-	background-color: rgba(160, 160, 160, 0.7);
+	background-color: rgba(40, 40, 40, 0.9);
+	margin: 1em;
 	grid-column: 1 / 7;
 	grid-row: 3 / 4;
   display: -ms-flexbox; /* IE10 */
@@ -214,7 +215,7 @@ label {
 }
 
 .btn {
-  background-color: #4CAF50;
+  background-color: #E55916;
   color: white;
   padding: 12px;
   margin: 10px 0;
@@ -226,7 +227,7 @@ label {
 }
 
 .btn:hover {
-  background-color: #45a049;
+  background-color: #bf4811;
 }
 
 span.price {
@@ -254,7 +255,7 @@ span.price {
 }
 
 .time1 {
-	grid-column: 2 / 3;
+	grid-column: 2 / 6;
 	grid-row: 3 / 4;
 
 }
@@ -264,99 +265,77 @@ span.price {
 	grid-row: 4 / 5;
 	margin: 1em;
 	padding: 1em;
-	background-color: rgba(229, 89, 22, 0.8);
+	background-color: rgba(200, 77, 20, 0.9);
 }
 
 .time2 {
-	grid-column: 2 / 3;
+	grid-column: 2 / 6;
 	grid-row: 5 / 6;
 }
 
 .eleven {
+	grid-column: 2 / 4;
+	grid-row: 6 / 7;
+	margin: 1em;
+	background-color: rgba(200, 77, 20, 0.9);
+	padding: 1em;
+}
+
+.eleven2 {
 	grid-column: 4 / 6;
 	grid-row: 6 / 7;
 	margin: 1em;
-	background-color: rgba(229, 89, 22, 0.8);
+	background-color: rgba(200, 77, 20, 0.9);
 	padding: 1em;
 }
 
 .time3 {
-	grid-column: 2 / 3;
+	grid-column: 2 / 6;
 	grid-row: 8 / 9;
 }
 
 .twelve {
 	grid-column: 2 / 4;
 	grid-row: 9 / 10;
-	background-color: rgba(229, 89, 22, 0.8);
+	background-color: rgba(200, 77, 20, 0.9);
 	padding: 1em;
+	margin: 1em;
 }
 
 .time4 {
-	grid-column: 2 / 3;
+	grid-column: 2 / 6;
 	grid-row: 10 / 11;
 }
 
 .one {
 	grid-column: 4 / 6;
 	grid-row: 11 / 12;
-	background-color: rgba(229, 89, 22, 0.8);
+	background-color: rgba(200, 77, 20, 0.9);
 	padding: 1em;
+	margin: 1em;
+}
+
+.one2 {
+	grid-column: 2 / 4;
+	grid-row: 11 / 12;
+	background-color: rgba(200, 77, 20, 0.9);
+	padding: 1em;
+	margin: 1em;
 }
 
 .time5 {
-	grid-column: 2 / 3;
+	grid-column: 2 / 6;
 	grid-row: 12 / 13;
 }
 
 .two {
 	grid-column: 2 / 4;
 	grid-row: 13 / 14;
-	background-color: rgba(229, 89, 22, 0.8);
+	background-color: rgba(200, 77, 20, 0.9);
 	padding: 1em;
-}
-/* Dropdown Button */
-.dropbtn-s {
-  background-color: rgba(51, 51, 51, 0.8);
-  color: white;
-  padding: 1px;
-  font-size: 20px;
-	color: #E55916;
-	font-family: 'Tomorrow', sans-serif;
-  border: none;
+	margin: 1em;
 }
 
-/* The container <div> - needed to position the dropdown content */
-.dropdown-t {
-  position: relative;
-  display: inline-block;
-}
-
-/* Dropdown Content (Hidden by Default) */
-.dropdown-content-t {
-  display: none;
-  position: absolute;
-  background-color: rgba(120, 120, 120, 0.8);
-  min-width: 160px;
-  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
-  z-index: 1;
-	font-size: 16px;
-}
-
-/* Links inside the dropdown */
-.dropdown-content-t p {
-  color: black;
-  padding: 12px 16px;
-  text-decoration: none;
-  display: block;
-}
-
-/* Show the dropdown menu on hover */
-.dropdown-s:hover .dropdown-content-s {display: block;}
-
-/* Change the background color of the dropdown button when the dropdown content is shown */
-.dropdown-s:hover .dropbtn-s {background-color: rgba(51, 51, 51, 0.8);
-;}
 
 
 
@@ -386,9 +365,9 @@ span.price {
 	margin: 16px;
 	color: #E55916;
 	font-size: 30px;
-	background-color: rgba(40, 40, 40, 0.8);
+	background-color: rgba(40, 40, 40, 0.9);
 	padding: 1em;
-	box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.3);
+
 }
 
 .info-jen {
@@ -398,9 +377,9 @@ span.price {
 	grid-column: 4 / 6;
 	grid-row: 3 / 4;
 	margin: 1em;
-	background-color: rgba(40, 40, 40, 0.8);
+	background-color: rgba(40, 40, 40, 0.9);
 	padding: 1em;
-	box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.3);
+
 }
 
 .john {
@@ -409,21 +388,21 @@ span.price {
 	grid-row: 4 / 5;
 	margin: 16px;
 	color: #E55916;
-	background-color: rgba(40, 40, 40, 0.8);
+	background-color: rgba(40, 40, 40, 0.9);
 	padding: 1em;
-	box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.3);
+
 }
 
 .info-john {
 	grid-column: 4 / 6;
 	grid-row: 4 / 5;
 	margin: 1em;
-	background-color: rgba(40, 40, 40, 0.8);
+	background-color: rgba(40, 40, 40, 0.9);
 	padding: 1em;
 	font-family: 'Open Sans', sans-serif;
 	font-size: 16px;
 	color: white;
-	box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.3);
+
 }
 
 .susan {
@@ -432,9 +411,9 @@ span.price {
 	grid-row: 5 / 6;
 	margin: 16px;
 	color: #E55916;
-	background-color: rgba(40, 40, 40, 0.8);
+	background-color: rgba(40, 40, 40, 0.9);
 	padding: 1em;
-	box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.3);
+
 }
 
 .info-susan {
@@ -444,9 +423,9 @@ span.price {
 	font-family: 'Open Sans', sans-serif;
 	font-size: 16px;
 	color: white;
-	background-color: rgba(40, 40, 40, 0.8);
+	background-color: rgba(40, 40, 40, 0.9);
 	padding: 1em;
-	box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.3);
+
 }
 
 .rich {
@@ -455,9 +434,9 @@ span.price {
 	grid-row: 6 / 7;
 	margin: 16px;
 	color: #E55916;
-	background-color: rgba(40, 40, 40, 0.8);
+	background-color: rgba(40, 40, 40, 0.9);
 	padding: 1em;
-	box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.3);
+
 }
 
 .info-rich {
@@ -467,9 +446,9 @@ span.price {
 	font-family: 'Open Sans', sans-serif;
 	font-size: 16px;
 	color: white;
-	background-color: rgba(40, 40, 40, 0.8);
+	background-color: rgba(40, 40, 40, 0.9);
 	padding: 1em;
-	box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.3);
+
 }
 
 .jeff {
@@ -478,9 +457,9 @@ span.price {
 	grid-row: 7 / 8;
 	margin: 16px;
 	color: #E55916;
-	background-color: rgba(40, 40, 40, 0.8);
+	background-color: rgba(40, 40, 40, 0.9);
 	padding: 1em;
-	box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.3);
+
 }
 
 .info-jeff {
@@ -490,9 +469,9 @@ span.price {
 	font-family: 'Open Sans', sans-serif;
 	font-size: 16px;
 	color: white;
-	background-color: rgba(40, 40, 40, 0.8);
+	background-color: rgba(40, 40, 40, 0.9);
 	padding: 1em;
-	box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.3);
+
 }
 
 .nadine {
@@ -501,9 +480,9 @@ span.price {
 	grid-row: 8 / 9;
 	margin: 16px;
 	color: #E55916;
-	background-color: rgba(40, 40, 40, 0.8);
+	background-color: rgba(40, 40, 40, 0.9);
 	padding: 1em;
-	box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.3);
+
 }
 
 .info-nadine {
@@ -513,9 +492,9 @@ span.price {
 	font-family: 'Open Sans', sans-serif;
 	font-size: 16px;
 	color: white;
-	background-color: rgba(40, 40, 40, 0.8);
+	background-color: rgba(40, 40, 40, 0.9);
 	padding: 1em;
-	box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.3);
+
 }
 
 .massimo {
@@ -524,9 +503,9 @@ span.price {
 	grid-row: 9 / 10;
 	margin: 16px;
 	color: #E55916;
-	background-color: rgba(40, 40, 40, 0.8);
+	background-color: rgba(40, 40, 40, 0.9);
 	padding: 1em;
-	box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.3);
+
 }
 
 .info-massimo {
@@ -536,9 +515,9 @@ span.price {
 	font-family: 'Open Sans', sans-serif;
 	font-size: 16px;
 	color: white;
-	background-color: rgba(40, 40, 40, 0.8);
+	background-color: rgba(40, 40, 40, 0.9);
 	padding: 1em;
-	box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.3);
+
 }
 
 .val {
@@ -547,9 +526,9 @@ span.price {
 	grid-row: 10 / 11;
 	margin: 16px;
 	color: #E55916;
-	background-color: rgba(40, 40, 40, 0.8);
+	background-color: rgba(40, 40, 40, 0.9);
 	padding: 1em;
-	box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.3);
+
 }
 
 .info-val {
@@ -559,9 +538,9 @@ span.price {
 	font-family: 'Open Sans', sans-serif;
 	font-size: 16px;
 	color: white;
-	background-color: rgba(40, 40, 40, 0.8);
+	background-color: rgba(40, 40, 40, 0.9);
 	padding: 1em;
-	box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.3);
+
 }
 
 
@@ -585,6 +564,11 @@ span.price {
 		flex-direction: column;
 	}
 
+.container-schedule {
+	display: flex;
+	flex-direction: column;
+}
+
 .navbar {
 	height: 8em;
 }
@@ -603,3 +587,12 @@ span.price {
 	}
 
 }
+
+	/* small screens media query */
+	@media (min-width: 800px) {
+
+img {
+	max-height: 300px;
+}
+
+	}
